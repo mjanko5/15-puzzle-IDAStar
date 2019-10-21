@@ -4,6 +4,7 @@
  * 15 puzzle IDA* - Node Class
  * To God be the Glory
  */
+//git exp
 
 public class Node implements Comparable<Node> {
     private Node parent; //each node has a parent except root
@@ -30,7 +31,7 @@ public class Node implements Comparable<Node> {
         nodeID = DLS.nodeCount++;
 
         //A* things:
-        if (Main.heuristic == 1)                     //heuristic: 1 -> Misplaced Tiles.
+        if (Main.heuristic == 1)                      //heuristic: 1 -> Misplaced Tiles.
             H = misplacedTiles();
         else if (Main.heuristic == 2)                //           2 ->  Manhattan Dist.
             H = manhattanDistance();
