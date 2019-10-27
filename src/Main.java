@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 15 puzzle IDA* - Main Class
  * To God be the Glory
  */
-//git exp
+
 
 public class Main {
 

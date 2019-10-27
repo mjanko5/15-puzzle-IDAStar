@@ -4,7 +4,7 @@
  * 15 puzzle IDA* - Node Class
  * To God be the Glory
  */
-//git exp
+
 
 public class Node implements Comparable<Node> {
     private Node parent; //each node has a parent except root
